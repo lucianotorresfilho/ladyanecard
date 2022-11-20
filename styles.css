@@ -1,0 +1,78 @@
+
+body{
+    margin: 0 auto;
+    background: linear-gradient(160deg, #9c23e8, #846a94, #1b0826);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Varela Round", sans-serif;
+}
+
+.about{
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.card{
+    background: #d8a9f510;
+    width: 380px;
+    height: 510px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0;
+    box-shadow: 0 0 10px -5px black;
+}
+.avatar{
+    width: 120px;
+    border-radius: 50%;
+    /*padding: 10px*/
+}
+
+.titulo, h1, avatar{
+    margin: 0;
+}
+
+.creci, .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.item{
+    margin: 10px;
+    /*background: #a566d1;*/
+    border: solid 2px #a566d1;
+    border-radius: 20px 10px 10px 20px;
+    float: right;
+}
+
+svg:not(.baixo){
+    float: right;
+}
+
+.contatos{
+    display: inline-block;
+    padding: 10px;
+    /*background: pink;*/
+    width: 90%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+    font-weight: 500;
+}
+
+.baixo{
+    font-size: small;
+    color:#1b0826;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
